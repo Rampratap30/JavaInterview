@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 
 public class FindUnique {
     public static void main(String[] args) {
-
+        //----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
         //Find duplicate String in Java 8
         Collection<String> list = Arrays.asList("A", "B", "C", "D", "A", "B", "C");
         List<String> distinctElements = list.stream().distinct().collect(Collectors.toList());
